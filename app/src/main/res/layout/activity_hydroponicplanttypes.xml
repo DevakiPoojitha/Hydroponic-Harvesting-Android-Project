@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hydroponicplanttypes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hydroponic plant types"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+
+        ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plants that can be planted in a hydroponic way are actually very many. However, people more often plant green leafy vegetables. Vegetables grown using the hydroponic method are more satisfying than planting with ordinary soil media. Hydroponic cultivation can be cultivated at home or other places. At least planting with the hydroponic method does not really require too much land. So planting with hydroponics is very suitable for the community, especially by urban communities that are limited by land."
+            android:textSize="18dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The advantage of a hydroponic farming system is that the medium does not require soil. The media used in hydroponic farming is water. We know that planting as usual is to use soil, where soil is used to reduce nutrients so that plants can be absorbed. However, with the hydroponic growing system the soil media is replaced with water media. Many plants can be planted using the hydroponic method. The following are plants that are usually planted with the hydroponic method, namely:"
+            android:textSize="18dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Water spinach plants:-
+
+Surely we already know this type of plant. Vegetables spinach is one of the favorite foods of the people of Indonesia. Vegetables spinach has been a legend since the days of our great-grandmothers. Besides being able to be processed into a delicious menu, water spinach plants are also easily available."
+            android:textSize="18dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can grow kale vegetables at home using the hydroponic method. Growing water spinach with a hydroponic system can be an alternative for those of you who may live in the city or lack of land to grow plants."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig14"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Lettuce Hydroponic Plants
+
+Vegetable lettuce can be an option if you want to grow in a hydroponic way. Planting lettuce is not difficult. Because lettuce plants do not require special attention or care to be able to grow large.
+
+When we start planting lettuce, the first step is to plant seeds. Lettuce seeds only need about two weeks for the seeds to grow leaves. Lettuce plants that have grown new leaves can be transferred to the growing medium for water and nutrient solution to grow properly. Until the time you can harvest it, the outside leaves are taken and the inside will grow again quickly to replace them."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig15"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Cucumber Hydroponic Plants Cucumber
+
+plants become one of the many choices planted by hydroponics. Cucumber plants that are planted in a hydroponic way have better results. However, if you decide to plant cucumbers, you must really understand how the science of planting with this hydroponic system.
+
+Cucumber plants need more attention so the results are satisfying. Therefore your knowledge in hydroponic cultivation determines the results of what you plant."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig16"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Hydroponic Plants Mustard Mustard is one of the most popular vegetables by the community. Plant mustard greens with a hydroponic system is not too complicated. In the process of mustard plants only require ordinary attention, but one thing to note is that when the process of growing mustard greens the irrigation system should not be choked up. Because if that happens then mustard plants will not grow properly"
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig17"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Hydroponic Plant Chillies
+
+Chilli is one of Indonesian people's favorite. Planting chillies with a hydroponic system requires proper attention. Chili plants must be frequently watered regularly to maintain freshness and growth well maintained.
+
+Chilli plants must be protected from pest problems so as not to cause bad consequences. You will get good results if you can treat it well. Therefore you have to understand how to grow chillies well."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig18"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Tomato Hydroponic Plants
+
+Tomatoes are one of the plants that you can grow using a hydroponic system. In addition because tomatoes have also become a favorite of the people that can be processed into a variety of dishes and suitable to be combined with various preparations. You can plant tomatoes using the hydroponic method indoors as long as there is sufficient light intensity.
+
+If not tomato plants will be stunted growth and the results are not good. Basically, plants must get enough light intensity to grow well and produce good fruit."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig19"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Hydroponic Strawberry
+
+Plants You can also try strawberry plants with the hydroponic growing method. Likewise strawberry plant melons need a special virgin too. We must often control the state of the media so that nutrients can be absorbed by plants properly.
+
+Strawberry plants will also depend on the growth of the surrounding conditions, this plant will be more suitable if it grows in areas that are not too dry and hot."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig19"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Hydroponic Melon Plants
+
+Now you can also plant melons using the hydroponic method. But in treatment requires special expertise that you must master. Because melon plants are plants that need nutrients and care that is different from other plants."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig20"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+12. Rose Flower
+
+Planting flowers with hydroponics, of course you can, the growth will be faster and the flower stalks become stronger and the petals do not often fall out, the results of the flowers also have bright and fresh colors.
+
+
+
+Those are some types of plants that can be planted by means of the hydroponic system. There are many more plants that can be planted with this system. My advice if you plant with a hydroponic system it is better to look for seedlings that you can buy at farm shops."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig21"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

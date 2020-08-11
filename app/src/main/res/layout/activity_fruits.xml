@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".fruits">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fruits"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:id="@+id/Strawberry"
+        android:layout_marginBottom="40dp"
+        android:layout_margin="20dp"
+
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/strawberry"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strawberry"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <Button
+            android:layout_width="120dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_height="match_parent"
+            android:text="INFO"
+            android:textSize="20dp"
+            android:id="@+id/Fruitinfo"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_height="match_parent"
+            android:text="HOME"
+            android:textSize="20dp"
+            android:id="@+id/Fruithome"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="SETTINGS"
+            android:textSize="20dp"
+            android:id="@+id/Fruitsettings"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+
+    </LinearLayout>
+</LinearLayout>

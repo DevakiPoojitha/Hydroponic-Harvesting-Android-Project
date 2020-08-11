@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bganimation1"
+    android:id="@+id/linear_layout1"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="7"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select one"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"
+        ></TextView>
+
+<!--   <LinearLayout-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="50dp"-->
+<!--       android:orientation="horizontal"-->
+<!--       android:clickable="true"-->
+<!--       android:id="@+id/lettuce"-->
+<!--       android:layout_marginBottom="40dp"-->
+<!--       >-->
+<!--       <ImageView-->
+<!--           android:layout_width="50dp"-->
+<!--           android:layout_height="50dp"-->
+<!--           android:src="@mipmap/lettuce"-->
+<!--           ></ImageView>-->
+
+<!--       <TextView-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:text="Lettuce"-->
+<!--           android:textColor="#000000"-->
+<!--           android:textSize="30dp"-->
+<!--           android:layout_marginLeft="10dp"-->
+<!--           ></TextView>-->
+
+<!--   </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:clickable="true"-->
+<!--        android:id="@+id/Spinach"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@mipmap/spinach"-->
+<!--            ></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Spinach"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            ></TextView>-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:clickable="true"-->
+<!--        android:id="@+id/Strawberry"-->
+<!--        android:layout_marginBottom="40dp"-->
+
+<!--            >-->
+<!--        <ImageView-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@mipmap/strawberry"-->
+<!--            ></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Strawberry"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            ></TextView>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:clickable="true"-->
+<!--        android:id="@+id/Mint"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@mipmap/mint"-->
+<!--            ></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mint"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            ></TextView>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:clickable="true"-->
+<!--        android:id="@+id/Bellpepper"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@mipmap/bellpepper"-->
+<!--            ></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Bellpepper"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            ></TextView>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:clickable="true"-->
+<!--        android:id="@+id/Tomato"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@mipmap/tomatoes"-->
+<!--            ></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tomatoes"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            ></TextView>-->
+
+<!--    </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/Cucumber"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginBottom="40dp"-->
+<!--            android:clickable="true"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:src="@mipmap/cucumber"></ImageView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:text="Cucumber"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="30dp"></TextView>-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <Button
+            android:layout_width="120dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_height="match_parent"
+            android:text="INFO"
+            android:textSize="20dp"
+            android:id="@+id/info"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_height="match_parent"
+            android:text="HOME"
+            android:textSize="20dp"
+            android:id="@+id/home"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="SETTINGS"
+            android:textSize="20dp"
+            android:id="@+id/settings"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

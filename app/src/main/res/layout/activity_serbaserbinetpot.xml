@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".serbaserbinetpot">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Everything about Netpot"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Netpot  is a mini plant pot that is used in hydroponic systems, netpot has a variety of sizes ranging from small to large netpot, netpot also has a hole that serves to support the roots of plants so they can grow and absorb nutrients properly. \n
+
+Netpot also has a special hole for inserting flannel, but there is also a special hole, but we can use another hole under the netpot.
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig25"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Netpot that has a small hole and tight can usually be used for the planting media of rice husk or perlite charcoal, this is intended so that the husk charcoal does not come out of the netpot when compared with a netpot that has a larger hole.
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig26"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The price of the manufacturer's netpot varies between Rp.500-2000 per pcs, depending on the quality of the netpot material, generally black and white but there is also a colorful netpot. \n
+
+Make Your Own Netpot \n
+
+To save your budget, you can also make your own netpot by using used mineral water bottles or other glass drinks, or we also buy the glass at a plastic store, the price is relatively cheap, only Rp.5000 / 50 pcs. \n
+
+Here are some examples of netpot from glass of mineral water and drinks:\n
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig27"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig28"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to make a glass netpot is quite practical, heat the solder (can also solder the solder eye that has been modified with a wire) then make holes along with the holes in the flannel cloth to the center of the glass the more holes the better the place for the roots to emerge.
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    --
+
+
+
+</androidx.core.widget.NestedScrollView>

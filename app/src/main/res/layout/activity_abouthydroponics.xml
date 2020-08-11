@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abouthydroponics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Hydroponics"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hydroponics is the cultivation of plants by utilizing water without using soil by emphasizing meeting the nutritional needs of plants. Water requirements in hydroponics are less than water requirements in aquaculture with soils. Hydroponics uses water more efficiently, so it is suitable to be applied in areas that have limited water supply. In language studies, hydroponics comes from the word hydro which means water and ponos which means work. So, hydroponics has a free understanding of farming techniques by emphasizing the fulfillment of nutritional needs for plants, or in the everyday sense of farming without soil."
+        android:textSize="18dp"
+
+        ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig1"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From this understanding, it can be seen that the emergence of hydroponic farming techniques was initiated by the increasing attention of humans on the importance of fertilizer needs for plants. Wherever the growth of a plant will still be able to grow well if the nutrients (nutrients) needed are always fulfilled. In this context the function of the soil is to support the plants and the existing water is a nutrient solvent, which can then be absorbed by plants. This mindset finally gave birth to hydroponic farming techniques, where the emphasis was on meeting nutritional needs."
+            android:textSize="18dp"
+
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig2"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

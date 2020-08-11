@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".raftsystem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Hydroponic Floating Raft System"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The floating raft hydroponics is the simplest of all active hydroponic systems. Platforms that hold plants are usually made of Styrofoam and float directly in nutrient solution. oxygen supply to the roots of plants using an aquarium pump that is inserted into a hydroponic nutrient sink."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig37"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The biggest disadvantage of such a system is that the hydroponic floating raft system does not work effectively on large plants or on long-term plants. How to Grow Hydroponic Floating Raft System: A simple way to grow hydroponics with a floating raft system, one of which is the floating raft system (Water culture). Vegetable vegetable seeds that require a lot of water with relatively short planting periods (kale, mustard greens, such as mustard caisim, mustard Pak Choy, mustard meatballs, mustard flowers and mustard greens). previously seeding was carried out in the media of roasted husk / cocopeat until the leaves grew 2-3 true leaves. To make a simple floating raft hydroponic system the equipment that needs to be prepared is as follows: /n/n
+
+
+
+
+
+-A plastic tub measuring 50 x 30 cm, then a height of 20 cm which is useful to hold the nutrient solution;/n
+-Rockwool as a growing medium;/n
+-Glass of mineral water as a net pot as a container for the growth of water spinach;/n
+-Also provide Styrofoam, measuring 50 x 30 cm;/n
+-Cutter that is used to cut stryrofoam./n
+-Aluminum foil as a styrofoam coating./n
+-Nails to perforate parts of a glass of mineral water./n
+-The principle of hydroponically floating floating rafts is to place the floating plants right above the nutrient liquid. The advantage of this method is that the plant will get a regular supply of water and nutrients on a regular basis, so that it can facilitate maintenance./n"
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig38"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plant care can be in the following ways:/n/n
+-Placing a plastic tub in an area that is exposed to enough sunlight,/n
+-Always maintain the condition of nutritional fluids so that they always exist,/n
+-Make sure the roots of the plant remain attached to the nutrient solution./n
+-Similarly, a review of simple hydroponic farming with a floating raft hydroponic system, please try./n"
+            android:textSize="18dp"
+            ></TextView>
+
+
+
+
+    </LinearLayout>
+
+    --
+
+
+
+</androidx.core.widget.NestedScrollView>

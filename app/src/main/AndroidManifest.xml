@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hydroponicharvesting">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".fruits"></activity>
+        <activity android:name=".leafy" />
+        <activity android:name=".vegetables" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".otherapplications" />
+        <activity android:name=".harvest" />
+        <activity android:name=".pestcontrol" />
+        <activity android:name=".plantmaintenance" />
+        <activity android:name=".transferofseeds" />
+        <activity android:name=".seedsandseedings" />
+        <activity android:name=".pumpshosesandmanifolds" />
+        <activity android:name=".hydroponicdft" />
+        <activity android:name=".hydroponicnft" />
+        <activity android:name=".ebbsystems" />
+        <activity android:name=".dripsystem" />
+        <activity android:name=".raftsystem" />
+        <activity android:name=".wicksystem" />
+        <activity android:name=".hydroponicswithusedmineralbottles" />
+        <activity android:name=".hydraulictools" />
+        <activity android:name=".serbaserbinetpot" />
+        <activity android:name=".hydroponicnutrition" />
+        <activity android:name=".hydroponicplanttypes" />
+        <activity android:name=".fertigationmaterials" />
+        <activity android:name=".plantmedia" />
+        <activity android:name=".abouthydroponics" />
+        <activity android:name=".Info" />
+        <activity android:name=".phlevel" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

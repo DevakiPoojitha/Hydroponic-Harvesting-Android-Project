@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hydroponicnft">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic NFT (Nutrient Film Technique) System"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The NFT hydroponic system is the most popular system compared to other hydroponic systems. Usually people associate NFT is hydroponics itself. Even though the NFT system is a hydroponic system."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig43"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NFT stands for Nutrient Film Technique. The word film is because plants grow on a thin film that resembles a film layer. This system is most easily found when you want to learn hydroponics. Because this system has the most convenience compared to other systems."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig44"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plants that can be planted with this system are not limited to leaf vegetables, fruit plants such as tomatoes, chilies, to melons can be planted with the NFT hydroponic system. As long as the roots of the fibrous plants can still be planted by NFT. Bulbous plants cannot be NFTed because the NFT root area is limited."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig45"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In addition, the NFT hydroponic system is the most flexible system compared to other systems. Because it can be applied in various fields of any size and any shape. In addition, NFT hydroponics can be made terraced if there is no land at all"
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig46"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Broadly speaking, the NFT circulation channel starts from the water pumped from the reservoir / reservoir. Then from the reservoir / reservoir, water is distributed to dams / gully containing plants by pumps through pipes."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig47"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Each dam / gully flowed water through the inlet hose. Plants grow by taking water and nutrients in the flow that flows in the dam / gully. At the end of the dam / gully, the water flow is accommodated. From the reservoir the flow is returned to the reservoir / reservoir. And the cycle continues over and over."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig48"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Although NFT is in principle a circulation, it does not originate from circulation. There are several principles that must be met for your NFT system to succeed."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig49"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig50"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+    </LinearLayout>
+
+    --
+
+
+</androidx.core.widget.NestedScrollView>

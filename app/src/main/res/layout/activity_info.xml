@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bganimation"
+    tools:context=".Info"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout"
+
+    >
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_weight="7"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFO"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            ></TextView>
+<Button
+    android:layout_marginTop="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="1. About Hydroponics"
+    android:textAlignment="textStart"
+    android:textSize="20dp"
+    android:background="@android:color/transparent"
+    android:id="@+id/AboutHydroponics"
+
+    ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Hydroponic plant media"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/hydroponicplantmedia"
+            android:background="@android:color/transparent"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. hydroponic fertigation "
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydroponicfertigation"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. type of hydroponic plants"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/typeofhydroponicplants"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. hydroponic nutrition"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydroponicnutrition"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. serba serbi netpot"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/serbaserbinetpot"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. hydraulic supporting tools"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydraulicsupportingtools"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. hydroponics with used mineral bottles"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydroponicswithusedmineralbottles"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. hydroponic wick system"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydroponicwicksystem"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. hydroponic floating raft system"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydroponicfloatingraftsystem"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. hydroponic drip system"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydroponicdripsystem"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. ebb and flow hydroponic systems"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/ebbandflowhydroponicsystems"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. hydroponic systems nft"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydroponicsystemsnft"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14. hydraulic dft system "
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/hydraulicdftsystem"
+            ></Button>
+ <!--       <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15. pump,house manifolds"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/pumphousemanifolds"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16. seeds and seedings"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/seedsandseedings"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17. breeding seed into hydroponic system"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/breedingseedintohydroponicsystem"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18. hydroponic plant maintenance"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/hydroponicplantmaintenance"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19. pest control and diseases control"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/pestcontrolanddiseasecontrol"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20. harvest and post harvest"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/harvestandpostharvest"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21. other applications"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:id="@+id/otherapplications"
+            ></Button>
+
+
+-->
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="INFO"
+                    android:textSize="20dp"
+                    android:id="@+id/info"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    ></Button>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="HOME"
+                    android:textSize="20dp"
+                    android:id="@+id/home"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    ></Button>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="SETTINGS"
+                    android:textSize="20dp"
+                    android:id="@+id/settings"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    ></Button>
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dripsystem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THydroponic Drop / Drip System"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic drip system (drip system) is a hydroponic technique that can be said to be quite simple, although it is not as simple as a hydroponic floating system. Things that must be considered to build a hydroponic drip system is the drip system itself, both using a timer and a manual (without a timer) Hydroponic Drip System has two drip systems, namely: Rotating Drip System and Static Drip System static / non-circulation)
+"
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig39"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This rotary / circulation / rotation drip system principally flows nutrients to plants at the netpot repeatedly using water that is flowed from the reservoir to the plant and back to the shelter. The disadvantage of this drip system is that the water PH tends to change at a certain time, so you should pay attention to checking water PH regularly so that it does not damage the plant. "
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig40"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponics Non-Circulation Drop System works with the principle of dripping but the water used does not return to the shelter, but only flowed to plants. /n/n
+
+System Drip Hydroponics:  Making drip system hydroponics requires quite a lot of hydroponic equipment. But you can get it easily because there are also many who sell it./n/n
+-Dripper/n
+-Adjustable dripper/n
+-HDPE hose/n
+-Water pump/n
+-Dripper (dripping tools) are curved elbows and there are straight, the price is between 2-3 thousand / unit. Installed at the end of a 5mm HPDE hose so that nutrients can drip regularly. /n
+"
+            android:textSize="18dp"
+            ></TextView>
+
+
+
+
+
+    </LinearLayout>
+
+    --
+
+</androidx.core.widget.NestedScrollView>

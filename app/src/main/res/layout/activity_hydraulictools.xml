@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hydraulictools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tools Used in Hydroponics"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In making a hydroponic system, of course we need equipment and materials that we will work on, if we want to make our own hydroponic system, of course this equipment must be in your home, but if we have more money to buy a hydroponic system so there is no harm.
+
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig29"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In practice making a hydroponic system is very fun while filling the time at home we can make the hydroponic system itself while playing sports./n/n
+
+Carpentry /n/n
+
+tools : Equipment used in a hydroponic system is usually:/n/n
+
+-Chainsaw / paralon (for cutting paralon pipes, etc.)/n
+-Electric drill (which can turn right and left is highly recommended)/n
+-Hole Saw (Circular saw blade for making netpot holes)/n
+-Meter (measure the length of the pipe paralon, etc.)/n
+-Cutter (trimming the results of hacksaw and hole saw)/n
+-Markers (for markers / measuring marks)/n
+-Paralon glue (to glue a paralon pipe, etc.)./n/n
+
+
+Hydroponic Nutrition Measuring Instrument (Minimum standard that must be owned):/n/n
+
+-TDS Meters (a tool to measure the viscosity of nutritional fluids with PPM units) there is also a more practical combination of TDS And EC Meters/n
+-PH Meter (a tool to measure the degree of acid-base hydroponic nutrition)/n
+-EC Meter (a tool to measure how the conductivity of water in delivering nutrients)./n
+
+
+
+
+
+
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig30"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig31"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig32"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The above tools we can buy easily in the market if you can buy difficulties in online stores or your favorite marketplace.
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+    --
+
+
+
+</androidx.core.widget.NestedScrollView>

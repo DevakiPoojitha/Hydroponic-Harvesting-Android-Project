@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hydroponicdft">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic DFT (Deep Flow Tehnique) System"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tehnique Deep Flow System (DFT) is a hydroponic system where plant roots are placed in a layer of water with a depth ranging from 4-6 cm. /n/n
+
+The hydroponic DFT system requires electricity supply to circulate water into the gutters by using a pump and to save electricity usage, we can use a timer (to set the time on and off the pump). For example in the morning the pump is on and in the afternoon the pump is dead, and so on."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig51"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic Advantages of Deep Flow Technique (DFT) System/n/n
+
+The advantages of the hydroponic technique of the DFT system are that when the electric current goes out the nutrient solution is still available for plants, because in this system the nutrient solution reaches a depth of 6 cm. So when there is no flow of nutrients there is still a hydroponic nutrient solution available. As for the drawbacks, the DFT system requires more nutrient solutions compared to the NFT (Nutrient Film Technique) system."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig52"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TThe development of plants that are cultivated using the Hydroponic Deep Flow Technique (DFT) system can grow well and have better quality fruits / vegetables compared to conventional methods. "
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig53"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Types of Plants in Hydroponics Deep Flow Technique (DFT) Systems /n/n
+
+Some plants that are often grown hydroponically are vegetables such as tub choy, broccoli, mustard greens, spinach, spinach, kale, tomatoes, onions, even strowbery, etc.
+"
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig54"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The working principle of Hydroponic Deep Flow Technique (DFT) /n/n
+
+System The basic principle of Hydroponic Deep Flow Technique (DFT) system is to continuously circulate plant nutrient solutions for 24 hours in a closed flow circuit. Plant nutrient solution in the tank is pumped by a water pump to the planting basin through a pipe irrigation network, then the plant nutrient solution in the planting tub is flowed back to the tank."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig55"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig56"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+    </LinearLayout>
+
+    --
+
+
+</androidx.core.widget.NestedScrollView>

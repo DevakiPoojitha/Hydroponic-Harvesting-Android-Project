@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hydroponicnutrition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic Nutrition AB Mix"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic Nutrition is a Hydroponic fertilizer that contains all nutrients needed by plants in the form of: \n
+            Macro Element:   Nirogen (N), Calcium (Ca), Phosphorus (F), Magnesium (Mg), Sulfur (S). \n
+            Hydroponic Nutrients circulating in the market consisting of Stock A Solutions and Stock B Solutions, or commonly called AB Mix Solutions (sold already in one package A and B). From its use, AB Mix Hydroponic Nutrition is divided into General Hydroponic Nutrition and Special Hydroponic Nutrition. \n
+            General Hydroponic Nutrition \n
+            Made to be used on all types of plants. In the market General Hydroponics Nutrition is divided into two, the first is AB Mix Vegetable Nutrition (for various types of vegetables such as mustard greens, pakcoy, kale, spinach, kailan, lettuce, etc.) and the second is the Nurse AB Mix Fruit (for various fruit plants such as chillies / chilli, tomato, etc.)  Special Hydroponic Nurses  Made specifically for certain plants (but sometimes other types of plants can also be used). Such as AB Mix Chilli Nutrition (for chilli plants), AB Mix Tomato Nutrition (for tomatoes), AB Mix Pakcoy Nutrition (for pakcoy plants), etc. \n
+            Examples of AB Mix fertilizer / nutrition products in the market that are widely sold are Goodplant, Hydro J, and package fertilizers made by hydroponic groups or groups in Indonesia as well as hydroponic nutrients made by the Faculty of Agriculture, Universities in their respective regions.
+            "
+            android:textSize="18dp"
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig22"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig23"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AB-MIX Fertilizer is specially formulated for Hydroponics, using quality ingredients that dissolve 100% in water. Contains macro elements as well as micro elements that are good for plants.\n
+
+How to make AB mix 500 mL Stock Solution:\n\n
+
+1.Prepare 2 measuring cups of at least 500 mL \n
+2.AB mix is opened with scissors, fill two packs, A and B\n
+3.Fill the measuring cup with half-full water (not directly 500 ml)\n
+4.Put the contents of package A into the measuring cup A\n
+5.Put the contents of the B wrap into the measuring cup B\n
+6.Stir each container until all are mixed\n
+7.Fill each glass up to the full 500 mL\n
+8.Save each stock solution, in a separate container can use bottles of mineral water\n
+9.Store in a place that is not exposed to direct sunlight\n
+10.AB mix is ready to use, 500 mL can be a 100 liter Ready Solution"
+            android:textSize="18dp"
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig24"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WARNING  : Never combine the two solutions because this can cause precipitation / crystallization and can not be used. \n
+
+How to use / Apply Solution:\n
+
+Put 5 ml of solution A into 1 liter of water (stir until smooth), add 5 ml of solution B (stir until smooth) )\n
+
+Note: Never combine solution A directly with solution B as this may cause precipitation. Follow the steps above !!! first mix solution A with water, stir until blended and then add solution B and stir until blended. The solution is ready for use in plants."
+            android:textSize="18dp"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+    --
+
+</androidx.core.widget.NestedScrollView>

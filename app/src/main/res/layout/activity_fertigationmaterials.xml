@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fertigationmaterials">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Types of Hydroponic Fertigation Materials"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The choice of material in the hydroponic fertigation system is very important because it involves the budget provided it also influences the goals in hydroponics whether only for household scale / self consumption, just for hobbies, or industrial scale."
+            android:textSize="18dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Below are some materials for the hydroponic fertigation system that you can choose according to the scale of needs and budget availability:"
+            android:textSize="18dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Paralon Pipe:
+Paralon pipe is the most widely used building material for hydroponic systems because it is easily available in the shop environment around your house, usually the size of PVC pipe used is between 1/2 - 3 inches but we recommend using 2.5 inch pipe because it is quite good and in accordance with high netpot, PVC pipe used should be of good quality, not too cheap and not too expensive branded ones."
+            android:textSize="18dp"
+
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig10"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The following are pipe sizes and their uses in hydroponics:
+1/2 inch pipe is used for aquarium pump connections
+1 inch pipe is used for the system frame and also as a water divider pipe in the HDPE hose
+2-inch pipe used as a hydroponic gully (not recommended for wide plants)
+2.5 inch pipe used as a hydroponic gully (highly recommended)
+3 inch pipe used as hydroponic gully (only option if 2.5 ichi pipe is not available)
+
+Paralon pipes are generally used to make NFT and DFT hydroponic systems, but are more suitable for use in DFT systems."
+            android:textSize="18dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Gutter:
+Same as paralon pipes, gutters can also be purchased at the nearest building store in your home, the shape of the elongated box is very good to use for the NFT hydroponic system, before we use this gutter we must first modify it by cutting the top quarter of its side to be glued as a place to put chamfer sheet pieces for netpot holes but some are straight without being cut which is then inserted a sheet of sterofoam."
+            android:textSize="18dp"
+
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@mipmap/fig11"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For industrial scale, guttering is widely used because it is more tidy and stronger in its maintenance, besides that it can be used to plant crops without using a netpot so it can be more cost-effective, gutters can be used starting from the nursery process to the production phase of large plants depending on the distance between the netpot holes. There are many video tutorials that review the making of gully from gutters. Please, you can search to add references in making a hydroponic system."
+            android:textSize="18dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Duct cable:
+Fertigation material using cable duct is a very special material besides being neat, easy to install, also elegant and looks beautiful to look at but with a fairly expensive price. The shape of the ducting cable is that the box and triangle are cut, the duct cable does not need to be modified anymore because it has a cover immediately, usually the duct cable is used for the NFT system and is very suitable for hydroponics to decorate the corners of your home garden."
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig12"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Basin Box
+This material is most often used in wick systems or axis systems, this system is the simplest and easiest hydroponics system. Look for a box basin with the largest size with a height of about 20-25 cm, for laying the netpot you can use an impraboard or plywood that is coated with aluminum foil to prevent it from getting wet with water.
+"
+            android:textSize="18dp"
+
+></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig13"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is better to use a wick system with a basin basin to maximize oxygen in water and as a nutrient mixer so that it is evenly mixed into all parts of the basin. The results will be different if we do not use an aerator, plants will be slow to develop compared to using an aerator."
+
+            android:textSize="18dp"
+
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

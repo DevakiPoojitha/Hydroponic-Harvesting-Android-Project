@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".pestcontrol"
+    android:orientation="vertical"
+
+    >
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="7"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lights:-"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            ></TextView>
+
+
+
+        <Switch
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+
+            ></Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Pump"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            ></TextView>
+
+
+
+        <Switch
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+
+            ></Switch>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About:-"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        ></TextView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text="Look, no soil! We're so used to plants growing in fields and gardens that we find anything else completely extraordinary. But it's true. Not only will plants grow without soil, they often grow a lot better with their roots in water or very moist air instead. Growing plants without soil is known as hydroponics. It might sound weird, but many of the foods we eat—including tomatoes on the vine—are already grown hydroponically. Let's take a closer look at hydroponics and find out how it works!"
+        ></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:background="@android:color/transparent"
+        android:text="Logout"
+        android:textSize="25dp"
+        android:id="@+id/logout"
+        ></Button>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="INFO"
+            android:textSize="20dp"
+            android:id="@+id/info"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="HOME"
+            android:textSize="20dp"
+            android:id="@+id/home"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="SETTINGS"
+            android:textSize="20dp"
+            android:id="@+id/settings"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

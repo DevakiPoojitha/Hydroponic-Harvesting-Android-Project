@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plantmedia">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic plant media"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Planting media in the hydroponic system is used as a place for the growth of plant roots and to support the plants so that the plants become upright and sturdy, in Indonesia there are several commonly used hydroponic growing media such as husk charcoal, rockwool, cocopeat, spoons / foam, Perlite, hydroton, vermiculite, and many more planting media that can be utilized such as sawdust, sand, gravel, tile / brick fragments, coral fragments, etc. that we can get in the environment around us we just need to adjust to the needs of hydroponic plants.
+"
+            android:textSize="18dp"
+
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig4"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here are some of the popular hydroponic growing media used:
+"
+
+            android:textSize="18dp"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Chaff charcoal
+The use of husk charcoal has been widely used in Indonesia because the raw material of the pulp / rice shell that has been oven or burned is easy to get, we can also make it yourself, you know, there are many in the rice mill, rice husk is able to provide the best results to produce vegetables and nurseries various plants.
+
+"
+
+            android:textSize="18dp"
+
+            ></TextView>
+
+
+
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig5"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Rockwool or often also called mineral wool, is an inorganic material that is made by blowing air or steam into melted rock. The result is a type of fiber that has cavities with a diameter generally between 6-10 micromoter.
+Rockwool has the ability to hold water and air in good amounts to support the development of plant roots. Rockwool is the most widely used in hydroponic systems because of its easy use and the price is relatively cheap Rp.60 thousand / slab with rockwool we can plant seedlings ranging from seedbed to harvest so it does not need to be transferred to other planting media.
+"
+
+            android:textSize="18dp"
+
+            ></TextView><ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@mipmap/fig6"
+        android:layout_marginBottom="20dp"
+        ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Cocopeat / Processed coconut husk
+Cocopeat is an excellent organic growing media because it has the ability to absorb good water which is certainly good for plant development, this processed coconut husk has been processed so that it is in the form of solids, the price is relatively cheap and we can get it at the farm shop or also can shop online.
+"
+
+            android:textSize="18dp"
+
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig7"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Sponge / Foam
+Maybe everyone already knows what is a spoon / foam, this material has a soft and hollow texture so that it can absorb water, this material is usually a substitute for rockwool if rockwool is hard to come by, but don't worry the foam is also able to function to provide water and oxygen intake to plant roots even though not as good as rockwool, okay please try using foam.
+"
+
+            android:textSize="18dp"
+
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig8"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Perlite looks like rough white sand like glass, because it is formed from amorphous amorphous volcanic glass which has a relatively high water content, usually formed by obsidian hydration, which is very good for accelerating plant growth. This material is easily applied to water spinach plants or can also be used for hydroponic fruit drip systems.
+v"
+
+            android:textSize="18dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/fig9"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wicksystem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic Wick System / Axis System"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wick System or axis system is one of the easiest hydroponic methods to apply, for beginners and mothers usually this system is the most popular system."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig35"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Because the ingredients are easy to obtain such as basin boxes, impraboard / styrofoam used fruit from fruit shops or the easiest to find is used aqua bottles. And also to absorb water we need a wick of flannel, this fabric can also be found in ordinary fabric stores. Before we start practicing, let's gather the materials first. /n/n
+
+The ingredients are Vegetable Hydroponics, including:/n/n
+-Water basin / basin to store Nutrition/n
+-Net Pot/n
+-Flannel/n
+-Impraboard / Styrofoam/n
+-Rockwool/n
+-Vegetable seeds/n
+-ABmix Nutrition"
+            android:textSize="18dp"
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig36"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steps to Planting the Wick System:/n/n
+-Cut the Rockwool into cubes of size 2.5 x 2.5 cm/n
+-Soak Rockwool with plain water for a while/n
+-Raise Rockwool, shake it off without being squeezed/n
+-Arrange neat Rockwool in a plate or tray/n
+-Make holes for the seeds using a toothpick/n
+-Small seeds can be removed with a toothpick, place it in the hole in Rockwool that was made/n
+-After sowing the seeds, cover with black plastic to avoid light/n
+-If the seed has broken or sprouted, start introducing the morning sun from 7 to 10 o'clock in the morning./n
+-Spray morning and evening Rockwool so as not to dry/n
+-When the plant is leafy 4, we can already provide nutrients/n
+-Prepare clean water in a tub / basin container/n
+-In every one liter of water, add 5ml of Nutrition A and 5ml of Nutrition B, stir until smooth/n
+-Prepare the netpot and the axis, then place the plants on the axis/n
+-Put it in the impraboard / styrofoam hole/n
+-Check the condition of nutritional water and plants to get good sunlight/n/n
+Note: To keep oxygen for the roots remain, try to make small holes in styrofoam, or you can also add aerators so that in the container there are still air bubbles. This system can be used to grow lettuce, mustard greens, spinach, spinach and other vegetables ."
+            android:textSize="18dp"
+            ></TextView>
+
+    </LinearLayout>
+
+    --
+
+</androidx.core.widget.NestedScrollView>

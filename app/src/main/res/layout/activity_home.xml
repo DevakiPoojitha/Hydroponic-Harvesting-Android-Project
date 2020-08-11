@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/bganimation"
+    android:id="@+id/linear_layout2"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="35dp"
+        android:layout_marginBottom="120dp"
+
+        android:textAlignment="center"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PH Level"
+        android:textSize="25dp"
+        ></TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/phl"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CF Level"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/cfl"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PPM Level"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/ppml"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Temperature"
+        android:textSize="25dp"
+        ></TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+
+        android:id="@+id/t1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="INFO"
+            android:textSize="20dp"
+            android:id="@+id/info"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="HOME"
+            android:textSize="20dp"
+            android:id="@+id/home"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="SETTINGS"
+            android:textSize="20dp"
+            android:id="@+id/settings"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            ></Button>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

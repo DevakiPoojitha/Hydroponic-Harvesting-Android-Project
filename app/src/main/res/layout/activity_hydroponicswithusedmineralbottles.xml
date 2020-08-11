@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hydroponicswithusedmineralbottles">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Grow Hydroponics with Used Mineral Bottles"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Grow Hydroponics with Used Mineral Bottles in hydroponic cultivation, has become an agricultural trend today and is one of the effective solutions in planting because it can reduce unused plastic bottle waste. This method is so easily practiced by anyone, from children to housewives wherever they are. It is said to be easy, because indeed we (who will plant) do not need to soil our fingers with the soil, can water the plants unnecessarily manually, even if we have to heat up in the hot daylight."
+            android:textSize="18dp"
+            ></TextView>
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig33"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig34"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Another advantage of growing hydroponically is to utilize a lot of used objects that are around our home. One that can be used is used from mineral water bottles. To make preparations for hydroponic farming with mineral water bottles is actually not complicated. You only have to prepare a mineral water bottle size 600 ml or 1 liter, then the planting media can be foam or rock wool / seeds ready for planting, scissors, flannelette, cutter, and also the netpot. /n /nHow to make :
+/n -Cut a mineral water bottle with a cutter or scissors about 3/4 height, or 2-3 cm before the curve of the bottle or just adjust it/n
+-Remove the bottle cap then turn the top of the input bottle into the bottom cut/n
+-Enter the netpot that has been given a new flannel cloth, then enter the rockwoll of plant seeds that are ready to move to the bottle/n
+-Fill the bottle with the AB Mix nutrition to wet the flannel cloth or 1 cm before the netpot/n
+-Place the bottle of this plant in a place that is exposed to sufficient sunlight/n
+-Refill nutritional water when it seems to be reduced/n
+-Rempel the bottom leaves so that young leaves on top of it develop quickly/n
+-If it grows normally we can harvest around 30-40 days (the system is a bit slow because of the low levels of oxygen in nutrients)./n/n
+Good luck..."
+            android:textSize="18dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    --
+
+
+
+</androidx.core.widget.NestedScrollView>

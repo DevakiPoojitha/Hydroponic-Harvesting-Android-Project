@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ebbsystems">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidal / Ebb and Flow Hydroponic Systems"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+Ebb and Flow System or also called Flood and Drain System is a hydroponic system with a fairly unique working principle. In the ebb and flow hydroponic system, plants get water, oxygen, and nutrients through pumping from the reservoir that is pumped into the media which will be able to wet the roots (pairs). After some time the water along with nutrients will go back down to the reservoir (receding). Tidal and low tide times can be adjusted using a timer according to the needs of the plant so that the plant will not be inundated or lack of water."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig41"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic ebb and flow systems like this are generally carried out with a water pump embedded in a nutrient solution (submerged pump) connected to a timer (timer). When the timer starts the pump, the hydroponic nutrient solution will be pumped into the grow tray (basket / place / plant pot). When the timer turns off the water pump, the nutrient solution will flow back to the reservoir. The timer is set to live several times a day, depending on the size and type of plant, temperature, humidity, and type of growth media used. The ebb and flow hydroponic system can be used for a number of hydroponic growing media. Media that can store water well enough for this hydroponic system such as rockwool, vermiculite, cocopeat."
+            android:textSize="18dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/fig42"
+            android:layout_marginBottom="20dp"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydroponic advantages of Ebb and Flow / Flood and Drain / tidal systems:/n/n
+-Plants receive a periodic supply of water, oxygen and nutrients\n
+-Oxygen supply is better because it is carried by highs and lows\n
+-Simplify maintenance because there is no need to water\n\n
+Hydroponic shortages of Ebb and Flow / Flood and Drain systems:\n\n
+-The manufacturing costs are quite expensive\n
+-Depends on electricity\n
+-The quality of nutrients that has been pumped many times is not as good as it was originally\n"
+            android:textSize="18dp"
+            ></TextView>
+
+    </LinearLayout>
+
+    --
+
+
+
+</androidx.core.widget.NestedScrollView>
